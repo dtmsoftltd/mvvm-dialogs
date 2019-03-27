@@ -6,7 +6,7 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
 using MvvmDialogs;
 
-namespace Demo.NonModalDialog
+namespace Demo.ActivateNonModalDialog
 {
     public class MainWindowViewModel : ViewModelBase
     {

@@ -4,7 +4,7 @@ using System.Windows.Threading;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
 
-namespace Demo.NonModalDialog
+namespace Demo.ActivateNonModalDialog
 {
     public class CurrentTimeDialogViewModel : ViewModelBase
     {

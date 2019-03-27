@@ -2,7 +2,7 @@
 using GalaSoft.MvvmLight.Ioc;
 using MvvmDialogs;
 
-namespace Demo.NonModalDialog
+namespace Demo.ActivateNonModalDialog
 {
     public partial class App
     {
