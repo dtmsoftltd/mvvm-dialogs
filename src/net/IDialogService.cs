@@ -121,6 +121,12 @@ namespace MvvmDialogs
             IModalDialogViewModel viewModel);
 
         /// <summary>
+        /// TODO: Add documentation
+        /// </summary>
+        /// <param name="viewModel">TODO: Add documentation</param>
+        bool? Activate(INotifyPropertyChanged viewModel);
+
+        /// <summary>
         /// Displays a message box that has a message, title bar caption, button, and icon; and
         /// that accepts a default message box result and returns a result.
         /// </summary>
