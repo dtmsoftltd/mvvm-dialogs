@@ -141,20 +141,6 @@ namespace MvvmDialogs
         }
 
         /// <inheritdoc />
-        public bool? Activate(INotifyPropertyChanged viewModel)
-        {
-            foreach (var window in Application.Current.Windows)
-            {
-                if (((Window)window).DataContext == viewModel)
-                {
-                    return ((Window)window).Activate();
-                }
-            }
-
-            return null;
-        }
-
-        /// <inheritdoc />
         public MessageBoxResult ShowMessageBox(
             INotifyPropertyChanged ownerViewModel,
             string messageBoxText,
