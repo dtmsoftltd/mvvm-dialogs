@@ -8,11 +8,11 @@ namespace Demo.ActivateNonModalDialog
     {
         public static bool? Activate(this IDialogService self, INotifyPropertyChanged viewModel)
         {
-            foreach (var window in Application.Current.Windows)
+            foreach (Window window in Application.Current.Windows)
             {
-                if (((Window)window).DataContext == viewModel)
+                if (window.DataContext == viewModel)
                 {
-                    return ((Window)window).Activate();
+                    return window.Activate();
                 }
             }
 
